@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ScoreDemo</string>
+    <string name="ateam">Team A</string>
+    <string name="bteam">Team B</string>
+    <string name="btean_score" translatable="false">122</string>
+    <string name="ateam_score" translatable="false">12</string>
+    <string name="atean_add1" translatable="false">+1</string>
+    <string name="btean_add1" translatable="false">+1</string>
+    <string name="ateam_add2" translatable="false">+2</string>
+    <string name="bteam_add2" translatable="false">+2</string>
+    <string name="ateam_add3" translatable="false">+3</string>
+    <string name="bteam_add3" translatable="false">+3</string>
+    <string name="undoButton">undo</string>
+    <string name="resetButton">reset</string>
+</resources>
