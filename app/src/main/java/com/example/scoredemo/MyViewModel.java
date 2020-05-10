@@ -29,14 +29,12 @@ public class MyViewModel extends ViewModel {
         aBack = aTeamScore.getValue();
         bBack = bTeamScore.getValue();
         aTeamScore.setValue(aTeamScore.getValue() + p);
-
     }
 
     public void bTeamAdd(int p) {
         aBack = aTeamScore.getValue();
         bBack = bTeamScore.getValue();
         bTeamScore.setValue(bTeamScore.getValue() + p);
-
     }
 
     public void reset() {
@@ -46,7 +44,7 @@ public class MyViewModel extends ViewModel {
         bTeamScore.setValue(0);
     }
 
-    public void undo(){
+    public void undo() {
         aTeamScore.setValue(aBack);
         bTeamScore.setValue(bBack);
     }

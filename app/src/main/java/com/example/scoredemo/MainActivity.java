@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
-        ViewModelProviders.of(this);
+        myViewModel = ViewModelProviders.of(this).get(MyViewModel.class);
         binding.setData(myViewModel);
         binding.setLifecycleOwner(this);
     }
