@@ -3,8 +3,12 @@ package com.example.scoredemo;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
+/**
+ * ViewModel实现MVVM模式
+ */
 public class MyViewModel extends ViewModel {
 
+    // LiveData当数据改变时，自动刷新界面
     private MutableLiveData<Integer> aTeamScore;
     private MutableLiveData<Integer> bTeamScore;
     private int aBack, bBack;
